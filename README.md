@@ -18,5 +18,10 @@ Front-end: HTML5 semântico e CSS3 (Flexbox/Grid).
 
 Figma: Criação de componentes e prototipagem avançada.
 
-[Figma](https://www.figma.com/design/cz3hhV8BSvZYoTSIm8wrgn/lumiere?node-id=6-2&t=I67CjcW1XG2V3bhK-1)
+## 🔗 Links Úteis
+
+* 🎨 [Protótipo no Figma]([link-do-seu-figma](https://www.figma.com/design/cz3hhV8BSvZYoTSIm8wrgn/lumiere?node-id=6-2&t=I67CjcW1XG2V3bhK-1))
+* 💼 [Meu LinkedIn]([link-do-seu-perfil](https://www.linkedin.com/in/rosa-chagas-costureza/))
+
+
 
