@@ -1,5 +1,6 @@
 # 📸 Lumière - Vintage Camera Shop
-<img width="1600" height="5452" alt="home" src="https://github.com/user-attachments/assets/deb8dfae-ae6c-4a93-81a3-e121b6efb404" />
+
+<img width="864" height="845" alt="Frame 7" src="https://github.com/user-attachments/assets/3fcd4e14-80ea-4e1b-b4b2-77b0268461fd" />
 
 Este projeto é o resultado da convergência entre o curso de UI Design e o de HTML/CSS da Origamid. Embora a proposta original do curso fosse um e-commerce de bicicletas, decidi personalizar o projeto para criar a Lumière, uma loja focada em câmeras vintage, exercitando assim minha autonomia criativa e tomada de decisão em design.
 
