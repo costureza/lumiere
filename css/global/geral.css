@@ -1,0 +1,41 @@
+:root {
+  --quinhetosvinte: 32.5rem;
+  --duzentospx: 12.5rem;
+  --centovintepx: 7.5rem;
+  --quarentapx: 2.5rem;
+  --vintepx: 1.25rem;
+  --sessentapx: 3.75rem;
+  --trintadoispx: 2rem;
+  --vintequatropx: 1.5rem;
+  --dezesseispx: 1rem;
+  --dozepx: .75rem;
+  --oitopx: .5rem;
+  --oito-dozepx: .5rem .75rem;
+  --quatropx: .25rem;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  font-family: "Lato", sans-serif;
+  color: var(--c8);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"],
+img[src$=".jpeg"],
+img[src$=".png"] {
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--quatropx);
+}

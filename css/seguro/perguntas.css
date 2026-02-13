@@ -1,0 +1,72 @@
+.perguntas {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.perguntas h2 {
+  margin-bottom: var(--sessentapx);
+}
+
+.perguntas dl>div {
+  padding: var(--vintepx);
+  border-radius: var(--quatropx);
+}
+
+.perguntas dl>div:nth-child(odd) {
+  background: var(--c1);
+}
+
+.perguntas button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--oitopx);
+  cursor: pointer;
+  background: none;
+  width: 100%;
+  text-align: left;
+}
+
+.perguntas button::before {
+  content: "";
+  display: inline-block;
+  width: var(--dozepx);
+  height: var(--oitopx);
+  background: var(--p1);
+}
+
+.perguntas button::after {
+  content: "";
+  display: inline-block;
+  width: .875rem;
+  height: .375rem;
+  background: url(../../img/icons/seta-abrir.svg);
+  transition: .3s;
+}
+
+.perguntas button:hover:after,
+.perguntas button[aria-expanded="true"]::after{
+  transform: rotate(180deg);
+}
+.perguntas dd.ativa{
+  display: block;
+} 
+.perguntas dd{
+  display: none;
+}
+.perguntas dd {
+  padding-top: var(--dezesseispx);
+  padding-left: var(--vintepx);
+  max-width: 80ch;
+}
+
+@media(max-width: 800px) {
+  .perguntas {
+    padding-top: var(--sessentapx);
+    padding-bottom: var(--sessentapx);
+  }
+
+  .perguntas h2 {
+    margin-bottom: var(--quarentapx);
+  }
+}

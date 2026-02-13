@@ -1,0 +1,102 @@
+#contato {
+  background: linear-gradient(var(--c8)600px, var(--c1) 0px)
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contato-dados,
+.contato-formulario {
+  padding: var(--sessentapx);
+  box-shadow: var(--box-shadow);
+}
+
+.contato-dados {
+  background: var(--c9) url(../../img//icons/bottom-left.svg)no-repeat bottom var(--vintepx) left var(--vintepx);
+  border-radius: 5px 0 0 5px;
+}
+
+.contato-dados p,
+.contato-dados a {
+  color: var(--p3);
+}
+
+.contato-formulario {
+  border-radius: 0 5px 5px 0;
+  background: var(--c) url(../../img//icons/bottom-right.svg)no-repeat bottom var(--vintepx) right var(--vintepx);
+}
+
+.contato-dados h2 {
+  margin-bottom: var(--sessentapx);
+}
+
+.contato-endereco{
+  margin-bottom: var(--trintadoispx);
+  padding-left: 1.75rem;
+  background: url(../../img/icons/local.svg) no-repeat 0px 2px;
+}
+
+.contato-endereco p{
+  margin-bottom: var(--oitopx);
+}
+
+.contato-meios a{
+  display: block;
+  max-width: max-content;
+  margin-bottom: var(--oitopx);
+  padding-left: 1.75rem;
+}
+
+.contato-meios a:hover {
+  color: var(--c);
+}
+
+.contato-meios a:first-child {
+  background: url(../../img/icons/email.svg) no-repeat 0px 2px;
+}
+
+.contato-meios a:nth-child(3) {
+  background: url(../../img/icons/telefone.svg) no-repeat 0px 2px;
+  margin-bottom: var(--sessentapx);
+}
+
+.contato-meios a:nth-child(2) {
+  margin-bottom: var(--trintadoispx);
+}
+
+.contato-redes {
+  display: flex;
+  gap: var(--trintadoispx);
+  padding-left: 1.75rem;
+}
+
+@media(max-width: 800px) {
+  .contato {
+    grid-template-columns: 1fr;
+  }
+
+  .contato-dados,
+  .contato-formulario {
+    padding: var(--vintepx);
+  }
+
+  .contato-dados {
+    border-radius: 5px 5px 0 0;
+    background: var(--c9);
+  }
+
+  .contato-formulario {
+    border-radius: 0 0 5px 5px;
+  }
+
+  .contato-meios a:nth-child(3),
+  .contato-dados h2 {
+    margin-bottom: var(--trintadoispx);
+  }
+  .contato-redes{
+    margin-bottom: var(--dozepx);
+  }
+
+}

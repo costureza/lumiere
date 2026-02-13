@@ -1,0 +1,38 @@
+.seguro-vantagem-bg {
+  background: var(--c9);
+}
+
+.seguro-vantagem {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.seguro-vantagem h2 {
+  margin-bottom: var(--sessentapx);
+}
+
+.seguro-vantagem ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, max-content));
+  gap: var(--quarentapx) 5rem;
+}
+
+.seguro-vantagem h3,
+.seguro-vantagem img {
+  margin-bottom: .5rem;
+}
+
+@media(max-width: 800px) {
+  .seguro-vantagem {
+    padding-top: var(--sessentapx);
+    padding-bottom: var(--sessentapx);
+  }
+
+  .seguro-vantagem h2 {
+    margin-bottom: var(--quarentapx);
+  }
+
+  .seguro-vantagem ul {
+    gap: var(--vintepx);
+  }
+}

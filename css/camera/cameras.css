@@ -1,0 +1,71 @@
+.camera-lista {
+  padding-top: var(--sessentapx);
+  padding-bottom: var(--centovintepx);
+}
+
+.camera-lista h2 {
+  margin-bottom: var(--quarentapx);
+}
+
+.camera-lista ul {
+  display: flex;
+  gap: var(--quarentapx);
+  padding: 0 var(--vintepx) var(--vintepx) var(--vintepx);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto;
+}
+
+.camera-lista li {
+  flex: 1;
+  min-width: var(--duzentospx);
+}
+
+.camera-lista a {
+  display: block;
+}
+
+.camera-lista img {
+  margin-bottom: var(--dezesseispx);
+}
+
+.camera-lista h3 {
+  margin-bottom: var(--oitopx);
+  display: flex;
+  align-items: center;
+}
+
+.camera-lista h3::before {
+  content: "";
+  display: inline-block;
+  height: var(--oitopx);
+  width: var(--dozepx);
+  margin-right: var(--oitopx);
+  background-color: var(--p1);
+  transition: width .3s;
+}
+
+.camera-lista a:hover h3::before {
+  width: var(--vintequatropx);
+}
+
+.camera-lista li span {
+  padding-left: var(--vintepx);
+}
+
+.cam-lista img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+@media(max-width: 800px) {
+  .camera-lista {
+    padding-bottom: var(--sessentapx);
+  }
+
+  .camera-lista ul {
+    gap: var(--vintepx);
+  }
+}

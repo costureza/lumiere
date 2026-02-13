@@ -1,0 +1,74 @@
+.seguros-bg {
+  background: var(--c8);
+}
+
+.seguros {
+  padding-top: var(--sessentapx);
+  padding-bottom: var(--sessentapx);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--quarentapx);
+  align-items: center;
+}
+
+#seguro .seguros {
+  padding-top: 0px;
+}
+
+.seguros h2 {
+  grid-column: 1/-1;
+}
+
+.seguro-item {
+  background: var(--c9);
+  padding: var(--trintadoispx) var(--trintadoispx) var(--trintadoispx) var(--sessentapx);
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: var(--quatropx);
+}
+
+.seguro-item span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+
+.seguro-item h3 {
+  margin-bottom: var(--quarentapx);
+}
+
+.seguro-item ul {
+  grid-column: 1/-1;
+  margin-bottom: var(--trintadoispx);
+}
+
+.seguro-item li {
+  color: var(--c);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.seguro-item li+li {
+  margin-top: var(--vintepx);
+}
+
+.seguro-item li::before {
+  content: "";
+  display: inline-block;
+  width: .813rem;
+  height: .563rem;
+  background-image: url(../../img/icons/check.svg);
+  position: absolute;
+  left: -1.313rem;
+}
+
+.seguro-item a {
+  grid-column: 1/-1;
+}
+
+@media(max-width: 800px) {
+  .seguros {
+    grid-template-columns: 1fr;
+  }
+}

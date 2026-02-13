@@ -1,0 +1,47 @@
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--vintepx);
+}
+.form label{
+  display: block;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: var(--quatropx);
+}
+.form select,
+.form input[type="text"],
+.form input[type="email"],
+.form textarea{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  background: var(--c1);
+  border: 0.063rem solid var(--c2);
+  padding: var(--dozepx);
+  border-radius: var(--quatropx);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus{
+  border-color: var(--p1);
+  background: var(--c);
+  box-shadow: 0 0 0 .125rem #fea;
+}
+.form .col-2{
+  grid-column: span 2;
+}
+
+@media(max-width: 600px){
+  .form{
+    grid-template-columns: 1fr0;
+  }
+  .form .col-2{
+    grid-column: 1;
+  }
+}

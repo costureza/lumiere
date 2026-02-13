@@ -1,0 +1,42 @@
+@import url(./global/geral.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+/* Utilidades */
+@import url(./utilidades/componentes.css);
+@import url(./utilidades/tipografia.css);
+@import url(./utilidades/cores.css);
+@import url(./utilidades/formulario.css);
+@import url(./utilidades/animacao.css);
+
+/* Home */
+@import url(./home/intro.css);
+@import url(./home/tecnolgia.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimento.css);
+@import url(./home/seguros.css);
+
+
+/*Cameras*/
+@import url(./camera/cameras.css);
+@import url(./camera/cam.css);
+@import url(./camera/camera-internas.css);
+@import url(./camera/seguro-cam.css);
+
+/*Seguros*/
+@import url(./seguro/seguros.css);
+@import url(./seguro/vantagem.css);
+@import url(./seguro/perguntas.css);
+
+
+/*Contato*/
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
+
+/*Orçamento*/
+@import url(./orcamento/orcamento.css);
+
+
+/*Termos*/
+@import url(./termos/termos.css);
+
